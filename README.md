@@ -1,1 +1,2 @@
-# compmusic
+![Cepstrogram](cepto.png)
+
