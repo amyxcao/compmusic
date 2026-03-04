@@ -1,0 +1,21 @@
+---
+title: "Portfolio Computational Musicology"
+author: "Amy Cao"
+format: dashboard
+orientation: columns
+editor: visual
+---
+
+# Project Description {#overview}
+My corpus consists of my personal Spotify “Top Songs” playlists from 2022 and 2025 which were two years that correspond to major geographic and identity transitions in my life. In 2022, I moved from the United States to Vancouver, marking a shift in environment, social networks, and lifestyle. In 2025, after three formative years in Vancouver, I relocated to the Netherlands. I treat each year’s Top Songs playlist as a snapshot of my musical identity at that moment in time.
+
+Using Spotify’s track-level audio features, I aim to examine how my listening patterns changed across these two transitions. By comparing feature distributions and stylistic clusters between 2022 and 2025, I explore whether shifts in geography and cultural exposure are reflected in measurable differences in musical characteristics. This project frames music taste as autobiographical data, investigating how relocation and cultural context may shape evolving personal identity through music.
+
+## Column {width=60%}
+
+### Summary
+Put text here.
+
+### Plot 1
+```{r}
+# code
