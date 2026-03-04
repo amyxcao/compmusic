@@ -3,7 +3,6 @@ title: "Portfolio Computational Musicology"
 author: "Amy Cao"
 format: dashboard
 orientation: columns
-editor: visual
 ---
 
 # Project Description {#overview}
@@ -14,7 +13,7 @@ Using Spotify’s track-level audio features, I aim to examine how my listening 
 ## Column {width=60%}
 
 ### Summary
-Put text here.
+![Timbre SSM](sameoldceptogram.png)
 
 ### Plot 1
 ```{r}
