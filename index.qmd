@@ -17,4 +17,14 @@ Using Spotify’s track-level audio features, I aim to examine how my listening 
 
 ### Plot 1
 ```{r}
-# code
+# Tempogram
+The tempogram for “New Person, Same Old Mistakes” shows a very stable tempo throughout the track. The strongest horizontal bands appear around roughly 35–40 BPM and its multiples (around 70–80 BPM and 140–160 BPM). These layers represent the same underlying pulse being detected at different metrical levels, such as half-time, beat level, and double-time.
+
+The consistency of these bands across the entire time axis suggests that the song maintains a steady tempo with little fluctuation, which is typical for electronically produced music. Instead of tempo changes, the track creates movement through gradual changes in texture, layering, and timbre.
+
+Overall, the tempogram highlights the song’s stable rhythmic foundation, which supports its hypnotic groove and repetitive structure.
+
+## Column {width=60%}
+
+### Summary
+![Tempogram](tempogram_newperson.png)
