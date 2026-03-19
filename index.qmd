@@ -17,7 +17,7 @@ Using Spotify’s track-level audio features, I aim to examine how my listening 
 
 ### Plot 1
 ```{r}
-# Tempogram
+# Tempogram {#tempogram}
 The tempogram for “New Person, Same Old Mistakes” shows a very stable tempo throughout the track. The strongest horizontal bands appear around roughly 35–40 BPM and its multiples (around 70–80 BPM and 140–160 BPM). These layers represent the same underlying pulse being detected at different metrical levels, such as half-time, beat level, and double-time.
 
 The consistency of these bands across the entire time axis suggests that the song maintains a steady tempo with little fluctuation, which is typical for electronically produced music. Instead of tempo changes, the track creates movement through gradual changes in texture, layering, and timbre.
@@ -28,3 +28,20 @@ Overall, the tempogram highlights the song’s stable rhythmic foundation, which
 
 ### Summary
 ![Tempogram](tempogram_newperson.png)
+
+#####
+### Plot 2
+```{r}
+# Dendrogram {#dendrogram}
+This dendrogram shows how my 2025 playlist clusters based on audio features using average linkage. Because it uses average distances, the clusters are more balanced and not too extreme.
+
+Overall, most tracks merge at relatively low heights, which suggests that a lot of the playlist is pretty similar in terms of sound (like energy, tempo, etc.). This makes sense since my listening habits tend to stay within a certain vibe.
+
+There are still some smaller clusters that form early, showing groups of songs that are especially similar, probably reflecting specific styles or moods. At the same time, a few tracks only join at higher distances, which suggests some outliers that don’t fit as closely with the rest.
+
+Overall, the playlist feels cohesive, with some subtle variation rather than really distinct or separate groups.
+
+## Column {width=60%}
+
+### Summary
+![Dendrogram](dendogram.png)
