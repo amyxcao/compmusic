@@ -103,13 +103,15 @@ In the context of my project, this stable rhythmic structure is interesting beca
 #####
 ### Plot 5
 # Dendrograms {#dendrogram}
-To compare my listening habits over time, I applied hierarchical clustering to both playlists using the same features, limiting each to 64 tracks for consistency.
+To compare my listening habits over time, I applied hierarchical clustering to both playlists using the same features and average linkage, limiting each to 64 tracks for consistency.
 
-The 2022 dendrogram (top) is relatively cohesive, with most tracks merging at lower distances. This suggests a more uniform listening profile. For example, Less Than Zero by The Weeknd and 505 by Arctic Monkeys cluster closely, reflecting a shared atmospheric, mid-tempo feel, while tracks like The Spins and Electric Feel form a slightly more upbeat cluster but still fit within a consistent overall sound.
+The 2022 dendrogram (top) is relatively cohesive, with most tracks merging at lower distances, suggesting a more uniform listening profile. For example, Less Than Zero and 505 cluster closely, reflecting a shared atmospheric feel, while tracks like The Spins and Electric Feel form a slightly more upbeat cluster but still fit within a consistent overall sound.
 
-In contrast, the 2025 dendrogram (bottom) is more spread out, with clusters merging at higher distances, indicating greater variation. Tracks like Climax (hyperpop/club-oriented) sit far from more atmospheric songs like Kiss Me or Backshot, reflecting differences in energy, timbre, and production style. There are also clearer sub-groups, such as high-energy electronic tracks clustering separately from softer, more introspective ones.
+In contrast, the 2025 dendrogram (bottom) is more spread out, with clusters merging at higher distances, indicating greater variation. Tracks like Climax sit far from more atmospheric songs like Kiss Me or Backshot, reflecting differences in energy, timbre, and production style, with clearer sub-groups emerging.
 
-Overall, this shift suggests that my musical preferences have become more diverse over time. While 2022 reflects a more concentrated “core” sound, 2025 shows a broader range of styles. At the same time, consistent clustering within both playlists suggests that my musical identity has expanded rather than fundamentally changed.
+Interestingly, although I used average linkage for both, the 2025 dendrogram visually resembles a single linkage structure, with more chain-like merging. This likely reflects the data itself: the playlist may contain gradual transitions between tracks, where songs are locally similar but not part of tight clusters.
+
+Overall, this suggests that my musical preferences have become more diverse over time, expanding beyond a more concentrated core while still maintaining some underlying consistency.
 
 ## Column {width=60%}
 
